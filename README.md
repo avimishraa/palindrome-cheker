@@ -1,64 +1,32 @@
-# 🔁 Palindrome Checker
+# Palindrome Checker 🧠🔁
 
-This is a simple web-based **Palindrome Checker** built using **HTML**, **CSS**, and **JavaScript**. It allows users to input a string and instantly checks whether the string is a palindrome or not.
+A simple web-based **Palindrome Checker** built using HTML, CSS, and JavaScript. Enter any word or phrase and this tool will instantly tell you whether it's a palindrome or not.
 
----
+## 🚀 Demo
 
-## 📌 What is a Palindrome?
+Check out the live demo here: [Palindrome Checker](https://avimishraa.github.io/palindrome-cheker)
 
-A **palindrome** is a word, phrase, or sequence that reads the same backward as forward.  
-Examples: `madam`, `racecar`, `level`
+## 📸 Screenshot
 
----
+![Screenshot](screenshot.png) <!-- Replace with actual image path if available -->
 
-## 💡 Features
+## ✨ Features
 
-- Input any word or phrase
-- Checks and displays whether it is a palindrome
-- Instant result on button click
-- Clean and beginner-friendly UI
-
----
+- 🔎 Check if a word or phrase is a palindrome
+- ✅ Ignores spaces, punctuation, and case sensitivity
+- 🌐 Simple and intuitive UI
+- ⚡ Instant result display
 
 ## 🛠️ Tech Stack
 
 - **HTML5**
 - **CSS3**
-- **JavaScript**
+- **JavaScript (Vanilla JS)**
 
----
+## 📂 Project Structure
 
-## ▶️ How to Use
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/avimishraa/palindrome-cheker
-   cd palindrome-cheker
-   ```
-
-2. **Open `index.html` in your browser**
-
-3. **Enter a word or phrase** in the input box and click **"Check"**
-
----
-
-## 🧠 Example
-
-```
-Input: madam
-Output: "It's a palindrome!"
-
-Input: hello
-Output: "It's not a palindrome."
-```
-
----
-
-## 🙋‍♂️ Author
-
-**Avinash Mishra**  
-GitHub: [@avimishraa](https://github.com/avimishraa)
-
----
-
-⭐ **If you found this helpful, give the repo a star!**
+```plaintext
+palindrome-cheker/
+├── index.html       # Main HTML file
+├── style.css        # Styling for the page
+└── script.js        # JavaScript logic for palindrome checking
